@@ -1,0 +1,224 @@
+/* All HTML CSS */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+  background-image: url(../assets/downtownLAOne.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #FFF;
+}
+
+footer {
+  color: #FFF;
+  display: block;
+  margin: 0 150px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+.testCenterDiv {
+    width: 75%;
+    height: 75%;
+    background-image: url(../assets/downtownLAOne.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    -webkit-box-shadow: 0px 0px 28px 9px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 28px 9px rgba(0,0,0,1);
+    box-shadow: 0px 0px 28px 9px rgba(0,0,0,1);
+}
+
+/*.img-responsive {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-box-shadow: 0px 0px 28px 9px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 28px 9px rgba(0,0,0,1);
+  box-shadow: 0px 0px 28px 9px rgba(0,0,0,1);
+}*/
+
+.copyright {
+  color: #FFF;
+}
+
+/** Navbar for About Project Contact HTML **/
+/*div.navbar-fixed-top {
+  margin: 15px 15px;
+}*/
+
+/*** Navbar Customization for Links ***/
+ul.nav a:hover {
+  background-color: transparent !important;
+  color: #FFF;
+  -webkit-box-shadow: 0px 0px 28px 9px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 28px 9px rgba(0,0,0,1);
+  box-shadow: 0px 0px 28px 9px rgba(0,0,0,1);
+}
+
+ul.nav a:active {
+  background-color: transparent !important;
+  color: #FFF;
+  -webkit-box-shadow: 0px 0px 28px 9px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 28px 9px rgba(0,0,0,1);
+  box-shadow: 0px 0px 28px 9px rgba(0,0,0,1);
+}
+
+ul.nav a:focus {
+  background-color: transparent !important;
+  color: #FFF;
+  -webkit-box-shadow: 0px 0px 28px 9px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 28px 9px rgba(0,0,0,1);
+  box-shadow: 0px 0px 28px 9px rgba(0,0,0,1);
+}
+
+ul.list-inline a:hover {
+  background-color: transparent !important;
+  color: #FFF;
+  -webkit-box-shadow: 0px 0px 28px 9px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 28px 9px rgba(0,0,0,1);
+  box-shadow: 0px 0px 28px 9px rgba(0,0,0,1);
+}
+
+ul.list-inline a:active {
+  background-color: transparent !important;
+  color: #FFF;
+  -webkit-box-shadow: 0px 0px 28px 9px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 28px 9px rgba(0,0,0,1);
+  box-shadow: 0px 0px 28px 9px rgba(0,0,0,1);
+}
+
+ul.list-inline a:focus {
+  background-color: transparent !important;
+  color: #FFF;
+  -webkit-box-shadow: 0px 0px 28px 9px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 28px 9px rgba(0,0,0,1);
+  box-shadow: 0px 0px 28px 9px rgba(0,0,0,1);
+}
+
+a {
+    color: #FFF;
+}
+
+a:active {
+    color: #FFF;
+}
+
+a:hover {
+    color: #FFF;
+}
+
+a.indexA {
+  font-size: 2vmax;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+
+/**********************************************************************/
+
+/* About Project Contact HTML CSS */
+/*.all-header {
+    padding-top: 350px;
+    padding-bottom: 350px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../assets/downtownLAOne.jpg) no-repeat center center;
+    background-size: cover;
+}*/
+
+/**********************************************************************/
+
+/* Home Html CSSS*/
+.homeScreen {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 17vh;
+  margin: auto;
+  text-align: center;
+}
+
+.h1Title {
+  font-size: 10vmax;
+  color: #FFF;
+}
+
+.h3Title {
+  font-size: 6vmin;
+  color: #FFF;
+}
+
+/**********************************************************************/
+
+/* About HTML CSS */
+/*.about-header {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../assets/downtownLAOne.jpg) no-repeat center center;
+    background-size: cover;
+}*/
+
+/*.aboutMe {
+  font-size: 18px;
+}*/
+
+/*.aboutMeBorder {
+  margin: 20px;
+}*/
+
+/*.about-me-paragraph {
+  background-color: white;
+  text-align: justify !important;
+  color: #000;
+  padding: 20px 20px;
+}*/
+
+/*.technical-skills-paragraph {
+  background-color: white;
+  text-align: center;
+  color: #000;
+  padding: 5px 5px;
+
+}*/
+
+/*ul.ulStyle {
+    list-style-type: none;
+}*/
+
+/*.education-paragraph {
+  background-color: white;
+  color: #000;
+  padding: 5px 5px;
+}*/

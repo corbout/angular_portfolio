@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html ng-app="PortfolioApp">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Tab Title -->
+    <title>Corbin Bautista | Full Stack Web Developer</title>
+
+    <link rel="icon" href="../assets/favicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Slide Animation Stylesheet -->
+    <link rel="stylesheet" text="text/css" href="css/animate.css">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" text="text/css" href="css/main.css">
+
+</head>
+
+<body>
+
+    <!-- Slide Animation -->
+    <div ui-view class="slide-animation"></div>
+
+    <!-- Include Angular first and then UI Router -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-animate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
+
+    <!-- Our js file -->
+    <script src="js/app.js"></script>
+    <script src="js/controllers/HomeController.js"></script>
+    <script src="js/controllers/AboutController.js"></script>
+    <script src="js/controllers/ProjectController.js"></script>
+    <script src="js/controllers/ContactController.js"></script>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#/home" class="btn btn-default btn-xs">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">&#124;</li>
+                        <li>
+                            <a href="#/about" class="btn btn-default btn-xs">About Me</a>
+                        </li>
+                        <li class="footer-menu-divider">&#124;</li>
+                        <li>
+                            <a href="#/projects" class="btn btn-default btn-xs">Projects</a>
+                        </li>
+                        <li class="footer-menu-divider">&#124;</li>
+                        <li>
+                            <a href="#/contact" class="btn btn-default btn-xs">Contact</a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small">Copyright &copy; Corbin Bautista 2016. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
